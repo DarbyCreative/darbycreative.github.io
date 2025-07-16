@@ -1,5 +1,29 @@
-div {
-    background-color: #94d2bd;
-    border-bottom: 4px solid #001219;
+nav {
+    background-color: #1A5BB0;
+    border-right: 4px solid #001219;
+    width: 10dvw;
+    height: 100dvh;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    background-color: #1A5BB0;
+    color: #e7ecef;
     padding: 5px;
+    margin-left: 10px;
+}
+
+.current-link {
+    background-color: #8AB7E9;
+}
+
+img {
+    width: calc(10dvw - 10px);
+    min-width: 90px;
+    height: calc(10dvw - 10px);
+    min-height: 90px;
+    margin: 5px;
 }

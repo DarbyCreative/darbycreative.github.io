@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#content {
+    width: calc(90dvw - 4px);
+    min-width: 96px;
+}
