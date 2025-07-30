@@ -1,6 +1,8 @@
 <div>
-    <app-bio />
+    <app-bio [bioText]="bioText()" [bioPic]="bioPic()" [id]="id()"/>
     <div>
-        <p>should contain flex box of members</p>
+        @for (member of roster(); track member.firstName) {
+            <button (click)="updateBio($event)" value="{{ member.ssid }}">{{ member.firstName }}</button>
+    }
     </div>
 </div>
